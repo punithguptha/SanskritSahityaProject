@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskrit Sahitya</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <!-- Toolbar -->
+    <div id="toolbar">
+        <div>
+            <button id="HomeButton" class="toolbar-button active" onclick="showHome(this)">Home</button>
+            <button id="AboutButton" class="toolbar-button" onclick="showAbout(this)">About Sahitya</button>
+            <button id="AuthorsButton" class="toolbar-button" onclick="showAuthors(this)">Authors</button>
+            <button id="WorksButton" class="toolbar-button" onclick="showWorks(this)">Works</button>
+            <button id="StudentDetailsButton" class="toolbar-button" onclick="showStudentDetails(this)">Student Details</button>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div id="content">
+        <!-- Home Page -->
+        <div id="home">
+            <div id="imgContainer">
+                <img src="NSKTU Logo.jpeg" alt="Logo of National Sanskrit University">
+            </div>
+            <h1>Welcome to Sahitya</h1>
+            <p>Sahitya, the rich literary heritage of ancient India, has produced some of the world's most profound and captivating writings. 
+        Journey through the pages of history and immerse yourself in the timeless works of legendary authors. Discover the wisdom, 
+        beauty, and cultural significance of Sanskrit literature.
+            </p>
+            <p>Explore the epic narratives of Valmiki's Ramayana and Vyasa's Mahabharata, delve into the lyrical verses of Kalidasa's poetry, 
+        and witness the dramatic excellence of Bhavabhuti and Bhasa. These luminaries of Sanskrit literature have left an indelible 
+        mark on the world of letters.
+            </p>
+            <p>Join us on a literary journey that transcends time and borders. Click on the "Authors" section to explore the lives and 
+        works of these literary giants. Enjoy your exploration of Sahitya.
+            </p>
+            <h3>About Me</h3>
+            <p>Roll No - 92003003</p>
+            <p>Student Name - Vikranth Korata</p>
+            <p>Feel free to explore the world of Sanskrit authors and their works on this site. If you have any questions or suggestions, reach out to me.</p>
+        </div>
+
+        <!-- About Sahitya Page -->
+        <div id="about">
+            <div id="imgContainer">
+                <img src="SanskritSahityaImage.jpeg" alt="Image containing text in sanskrit written in Talapatras">
+            </div>
+            <h2>About Sanskrit Sahitya</h2>
+            <p>Sanskrit Sahitya, also known as Sanskrit literature, is a treasure trove of ancient literary and philosophical works that have significantly influenced Indian culture, spirituality, and thought for millennia. It is one of the world's oldest literary traditions, with a rich history spanning thousands of years.</p>
+
+            <p>Rooted in the classical Sanskrit language, Sanskrit Sahitya encompasses a wide range of literary genres, including epic poetry, drama, philosophy, and scientific texts. These writings explore profound philosophical questions, tell captivating stories, and provide insights into ancient Indian society.</p>
+
+            <p>Some of the most renowned and revered works of Sanskrit Sahitya include the following:</p>
+
+            <ul>
+                <li><strong>The Vedas:</strong> The oldest sacred texts in Hinduism, comprising the Rigveda, Yajurveda, Samaveda, and Atharvaveda.</li>
+                <li><strong>The Mahabharata:</strong> An epic narrative that tells the story of the Kurukshetra War, filled with moral dilemmas and divine wisdom. It includes the Bhagavad Gita, a spiritual and philosophical dialogue.</li>
+                <li><strong>The Ramayana:</strong> An epic poem that narrates the life and adventures of Lord Rama, a revered figure in Hinduism.</li>
+                <li><strong>The Upanishads:</strong> Philosophical texts that delve into the nature of reality, the self (Atman), and the ultimate truth (Brahman).</li>
+                <li><strong>The Arthashastra:</strong> An ancient treatise on statecraft, economics, and military strategy attributed to the scholar Kautilya (Chanakya).</li>
+                <li><strong>Kalidasa's Works:</strong> The poetic masterpieces of Kalidasa, including "Shakuntala" and "Kumarasambhava," celebrated for their artistic beauty.</li>
+            </ul>
+
+            <p>Throughout history, Sanskrit Sahitya has not only provided artistic and intellectual inspiration but has also played a central role in preserving and transmitting knowledge across generations. It continues to be a source of wisdom, spirituality, and cultural heritage.</p>
+
+            <p>As we explore the world of Sanskrit Sahitya and delve into the works of great authors, we embark on a journey to discover the profound and timeless wisdom that has shaped the Indian subcontinent and continues to captivate readers and scholars worldwide.</p>
+        </div>
+
+        <!-- Authors Page -->
+        <div id="authors">
+            <div id="imgContainer">
+                <img src="Authors_Valmiki2.webp" alt="An Image showing Shri Valmiki">
+            </div>
+            <h1>Authors</h1>
+            <!-- Search Bar -->
+            <div id="search-bar">
+                <input type="text" id="authorSearch" placeholder="Search for an author or work" onkeyup="searchAuthors()">
+            </div>
+
+            <!-- Author Buttons Container -->
+            <div id="buttons-container">
+            </div>
+        </div>
+
+        <!-- Author Details -->
+        <div id="author-details">
+            <h2 id="author-name"></h2>
+            <p id="author-info"></p>
+            <h3>Main Works:</h3>
+            <ul id="main-works">
+                <!-- Add main works of the author with intros here -->
+            </ul>
+        </div>
+        
+
+        <!-- Works Page -->
+        <div id="works">
+            <div id="imgContainer">
+                <img src="RamayanaAdiKavyam.avif" alt="An Image showing Rama Pattabhishekham from Ramayana Literature">
+            </div>
+            <h1>Works</h1>
+            <!-- Search Bar -->
+            <div id="search-bar">
+                <input type="text" id="workSearch" placeholder="Search for an author or work" onkeyup="searchWorks()">
+            </div>
+
+            <!-- Works Buttons Container -->
+            <div id="buttons-container">
+            </div>
+        </div>
+
+        <!-- Work Details -->
+        <div id="work-details">
+            <h2 id="work-name"></h2>
+            <h3>Authors:</h3>
+            <ul id="authors-list">
+                <!-- Add author/Authors information here -->
+            </ul>
+            <p id="work-info"></p>
+        </div>
+        
+        <!-- Student Details Page -->
+        <div id="student-details" style="display: none;">
+            <h1>Student Details</h1>
+            <p>Roll No - 92003003</p>
+            <p>Student Name - Vikranth Korata</p>
+            <p>Sastra - Sahitya</p>
+            <p>Stream - B.A (Third Year)</p>
+        </div>
+    </div>
+    <script src="DataHandler.js"></script>
+    <!-- <script src="Project.js"></script> -->
+</body>
+</html>

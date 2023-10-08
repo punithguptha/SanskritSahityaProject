@@ -1,0 +1,87 @@
+{
+  "Valmiki": {
+    "Intro": "Introduction about Valmiki.",
+    "Main Works": [
+      {
+        "Work Name": "Ramayana",
+        "Work Intro": "Intro about Ramayana.",
+        "Work Description":"Intro about Ramayana."
+      },
+      {
+        "Work Name": "Yoga Vasishtam",
+        "Work Intro": "Intro about Ramacharitamanasa.",
+        "Work Description":"Intro about Ramacharitamanasa."
+      }
+    ]
+  },
+  "Vyasa": {
+    "Intro": "Introduction about Vyasa.",
+    "Main Works": [
+      {
+        "Work Name": "Mahabharata",
+        "Work Intro": "Intro about Mahabharata.",
+        "Work Description":"Intro about Mahabharata."
+      }
+    ]
+  },
+  "Kalidasa": {
+    "Intro": "Introduction about Kalidasa.",
+    "Main Works": [
+      {
+        "Work Name": "Shakuntala",
+        "Work Intro": "Intro about Shakuntala.",
+        "Work Description":"Intro about Shakuntala."
+      },
+      {
+        "Work Name": "Raghuvamsa",
+        "Work Intro": "Intro about Raghuvamsa.",
+        "Work Description":"Intro about Raghuvamsa."
+      }
+    ]
+  },
+  "Bhavabhuti": {
+    "Intro": "Introduction about Bhavabhuti.",
+    "Main Works": [
+      {
+        "Work Name": "Uttararamacharita",
+        "Work Intro": "Intro about Uttararamacharita.",
+        "Work Description":"Intro about Uttararamacharita."
+      }
+    ]
+  },
+  "Bhasa": {
+    "Intro": "Introduction about Bhasa.",
+    "Main Works": [
+      {
+        "Work Name": "Swapnavasavadatta",
+        "Work Intro": "Intro about Swapnavasavadatta.",
+        "Work Description":"Intro about Swapnavasavadatta."
+      },
+      {
+        "Work Name": "Pratijnayaugandharayana",
+        "Work Intro": "Intro about Pratijnayaugandharayana.",
+        "Work Description":"Intro about Pratijnayaugandharayana."
+      }
+    ]
+  },
+  "Dandi": {
+    "Intro": "Introduction about Dandi.",
+    "Main Works": [
+      {
+        "Work Name": "Kavyadarsha",
+        "Work Intro": "Intro about Kavyadarsha.",
+        "Work Description":"Intro about Kavyadarsha."
+      }
+    ]
+  },
+  "VishnuSarma": {
+    "Intro": "Introduction about VishnuSarma.",
+    "Main Works": [
+      {
+        "Work Name": "Panchatantra",
+        "Work Intro": "Intro about Panchatantra.",
+        "Work Description":"Intro about Panchatantra."
+      }
+    ]
+  }
+}

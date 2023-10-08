@@ -1,0 +1,42 @@
+{
+    "Ramayana":{
+        "Work Description": "Intro about Ramayana.",
+        "Authors": ["Valmiki"]
+    },
+    "Yoga Vasishtam":{
+        "Work Description":"Intro about Ramacharitamanasa.",
+        "Authors":["Valmiki"]
+    },
+    "Mahabharata":{
+        "Work Description":"Intro about Mahabharata.",
+        "Authors":["Vyasa"]
+    },
+    "Shakuntala":{
+        "Work Description":"Intro about Shakuntala.",
+        "Authors":["Kalidasa"]
+    },
+    "Raghuvamsa":{
+        "Work Description":"Intro about Raghuvamsa.",
+        "Authors":["Kalidasa"]
+    },
+    "Uttararamacharita":{
+        "Work Description":"Intro about Uttararamacharita.",
+        "Authors":["Bhavabhuti"]
+    },
+    "Swapnavasavadatta":{
+        "Work Description":"Intro about Swapnavasavadatta.",
+        "Authors":["Bhasa"]
+    },
+    "Pratijnayaugandharayana":{
+        "Work Description":"Intro about Pratijnayaugandharayana.",
+        "Authors":["Bhasa"]
+    },
+    "Kavyadarsha":{
+        "Work Description":"Intro about Kavyadarsha.",
+        "Authors":["Dandi"]
+    },
+    "Panchatantra":{
+        "Work Description":"Intro about Panchatantra.",
+        "Authors":["VishnuSarma"]
+    }
+}

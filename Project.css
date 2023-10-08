@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EBF4FA; /* Water Blue */
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar {
+    background-color: #808080; /* gray toolbar */
+    color: #333; /* Dark gray text color */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+}
+
+#content {
+    padding: 80px 20px 20px; /* Add space for the fixed toolbar */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333; /* Dark gray text color */
+}
+
+p {
+    font-size: 16px;
+    color: #555; /* Gray text color */
+}
+
+/* Home Page Styles */
+#home {
+    display: block;
+}
+
+#imgContainer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    height:200px;
+}
+
+/* About Sahitya Page Styles */
+#about {
+    display: none; /* Hidden by default */
+}
+
+/* Authors Page Styles */
+#authors {
+    display: none; /* Hidden by default */
+}
+
+.button-entity {
+    background-color: #fff; /* White background for author buttons */
+    color: #333; /* Dark gray text color */
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-entity:hover {
+    background-color: #ddd; /* Slightly darker on hover */
+}
+
+/* Author Details Styles */
+#author-details {
+    background-color: #fff; /* White background for author details */
+    padding: 20px;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+}
+
+#author-details h2 {
+    color: #333; /* Dark gray text color */
+    font-size: 20px;
+}
+
+#author-details p {
+    font-size: 16px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+/* Search Bar Styles */
+#search-bar {
+    margin-top: 20px;
+}
+
+#authorSearch, #workSearch{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+/* Author Buttons Container Styles */
+#buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#works{
+    display: none;
+}
+
+#work-details {
+    background-color: #fff; /* White background for author details */
+    padding: 20px;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+}
+
+/* Toolbar button class */
+.toolbar-button {
+    background-color: #fff; /* Light gray toolbar button background */
+    color: #333; /* Dark gray text color for toolbar buttons */
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toolbar-button:hover {
+    border-bottom :4px solid orange;
+}
+
+.active{
+    border-bottom :4px solid orange;
+}
+
+.clickableText{
+    cursor: pointer;
+}
+
+.clickableText:hover{
+    text-decoration: underline;
+}
